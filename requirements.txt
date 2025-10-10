@@ -1,25 +1,17 @@
-# === Core Libraries ===
+addict>=2.4.0
+av==13.1.0
+click>=8.1.7
+einops>=0.8.0
+gradio>=3.36.1
+moviepy==1.0.3
+omegaconf>=2.3.0
+pillow==9.5.0
+psutil>=5.9.8
+pyyaml>=6.0.2
+ray>=2.37.0
+sentencepiece>=0.2.0
+setuptools>=75.2.0
 torch>=2.4.1
 transformers>=4.45.2
-einops>=0.8.0
-omegaconf>=2.3.0
-pyyaml>=6.0.2
-addict>=2.4.0
-sentencepiece>=0.2.0
-
-# === Video & Media Processing ===
-av==13.1.0
-moviepy==1.0.3
-pillow==9.5.0
-
-# === Web/UI (optional for local testing) ===
-gradio>=3.36.1
-
-# === Runtime & Utilities ===
-click>=8.1.7
-setuptools>=75.2.0
-ray>=2.37.0
-psutil>=5.9.8
-
-# === RunPod SDK ===
-runpod==1.6.2
+diffusers>=0.30.0
+accelerate>=0.33.0
